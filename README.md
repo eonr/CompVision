@@ -18,3 +18,12 @@
 <b>Layer-5</b>: Conv2d (3x3 kernels, 64 filters, padding = 1) <br>
 <b>Layer-6</b>: Conv2d (3x3 kernels, 64 filters, padding = 1) <br>
 <b>Layer-7</b>: Linear (1024 inputs, 10 outputs) + RelU <br>
+## MNIST-4
+<b>Augmentation</b>: Random rotations + normalization<br>
+<b>Layer-1</b>: Conv2d (3x3 kernels, 32 filters) <br>
+<b>Layer-2</b>: Conv2d (3x3,32 filters) + Max pooling (2, 2) + dropout <br>
+<b>Layer-3</b>: Conv2d (3x3 kernels, 64 filters, padding = 1) <br>
+<b>Layer-4</b>: Conv2d (3x3 kernels, 64 filters, padding = 1) + Max pooling (2, 2) + dropout<br>
+<b>Layer-5</b>: Conv2d (3x3 kernels, 128 filters, padding = 1) + Max pooling(2, 2) + BN<br>
+<b>Layer-6</b>: Linear (1152 inputs, 10 outputs) + RelU <br>
+<i>Heavy dropouts countered by adding more channels, training on more epochs and pooling later than previous models</i> 
