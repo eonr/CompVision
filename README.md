@@ -27,3 +27,5 @@
 <b>Layer-5</b>: Conv2d (3x3 kernels, 128 filters, padding = 1) + Max pooling(2, 2) + BN<br>
 <b>Layer-6</b>: Linear (1152 inputs, 10 outputs) + RelU <br>
 <i>Heavy dropouts countered by adding more channels, training on more epochs and pooling later than previous models</i> 
+## Neural Style Transfer
+Got a lot of help from https://pytorch.org/tutorials/advanced/neural_style_tutorial.html and the deeplearning.ai tutorial
