@@ -28,5 +28,5 @@
 <b>Layer-6</b>: Linear (1152 inputs, 10 outputs) + RelU <br>
 <i>Heavy dropouts countered by adding more channels, training on more epochs and pooling later than previous models</i> 
 ## Neural Style Transfer
-Got a lot of help from https://pytorch.org/tutorials/advanced/neural_style_tutorial.html and the deeplearning.ai tutorial <br>
+Pytorch tutorial - https://pytorch.org/tutorials/advanced/neural_style_tutorial.html<br>
 A few examples in <b>Sherlock_Examples.ipynb</b> (With different weights for style loss and content loss)
