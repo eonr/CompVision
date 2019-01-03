@@ -1,4 +1,4 @@
-# CNN-Tests
+# CompVision
 ## MNIST-1
 <b>Layer-1</b>: Conv2d (5x5 kernels, 32 filters) + Max pooling (2, 2)  <br>
 <b>Layer-2</b>: Conv2d (5x5,64 filters) + Max pooling (2, 2) + dropout<br>
@@ -28,5 +28,8 @@
 <b>Layer-6</b>: Linear (1152 inputs, 10 outputs) + RelU <br>
 <i>Heavy dropouts countered by adding more channels, training on more epochs and pooling later than previous models</i> 
 ## Neural Style Transfer
-Pytorch tutorial - https://pytorch.org/tutorials/advanced/neural_style_tutorial.html<br>
-A few examples in <b>Sherlock_Examples.ipynb</b> (With different weights for style loss and content loss)
+<b>Pytorch tutorial</b> - https://pytorch.org/tutorials/advanced/neural_style_tutorial.html<br>
+A few examples in <b>Sherlock_Examples.ipynb</b> (With different weights for style loss and content loss)<br>
+## MNIST_SpatialTransformer
+<b>Paper</b>: https://arxiv.org/abs/1506.02025<br>
+MNIST-4 with an intermediate spatial transformer layer
