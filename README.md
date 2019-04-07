@@ -34,4 +34,4 @@ A few examples in <b>Sherlock_Examples.ipynb</b> (With different weights for sty
 <b>Paper</b>: https://arxiv.org/abs/1506.02025<br>
 MNIST-4 with an intermediate spatial transformer layer<br>
 ### Flipkart - Object detection
-Finding objects in a given image using object detection in PyTorch for the <a href="https://skillenza.com/challenge/pan-iit-hackathon">contest</a>. 
+Finding objects in a given image using object detection in PyTorch for the <a href="https://dare2compete.com/o/Flipkart-GRiD-Teach-The-Machines-2019-74928">contest</a>. 
