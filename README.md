@@ -32,4 +32,6 @@
 A few examples in <b>Sherlock_Examples.ipynb</b> (With different weights for style loss and content loss)<br>
 ### MNIST_SpatialTransformer
 <b>Paper</b>: https://arxiv.org/abs/1506.02025<br>
-MNIST-4 with an intermediate spatial transformer layer
+MNIST-4 with an intermediate spatial transformer layer<br>
+### Flipkart - Object detection
+Finding objects in a given image using object detection in PyTorch for the <a href="https://skillenza.com/challenge/pan-iit-hackathon">contest</a>. 
